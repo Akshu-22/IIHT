@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <!--<head>
+        <script src="js\login.js"></script>
+    </head> --> 
+    <body>
+        <form action="success.html" onsubmit="myfun()">
+        <input type="text" placeholder="Enter Username"  id="name">
+        <br>
+        <input type="password" placeholder="Enter Password"  id="pass">
+        <br>
+        
+        <button type="submit" name="submit" value="Submit">Login</button>
+        <p id="p1"></p>
+       <!--<button onclick="disp()">Login</button>--> 
+        
+    </form>
+    <script>
+        function myfun(){
+            var name=document.getElementById('name').value;
+            localStorage.setItem(name,name)
+        } 
+    </script>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body onmousemove="mousco(event)">
+    <p id="m1"></p>
+    <p id="p1" onclick="change()"> Welcome </p>
+    Enter your message : <input type="text"
+    id="mes" onfocus="focus()" onblur="blur1()"/>
+    <p id="colo" ondblclick="chngcolo()">Change color</p>
+   
+    <h1 id="b1t" onclick="blur()">Events </h1>
+
+    
+
+    <br>
+
+   <!-- <audio controls >
+    <source src= "C:\Users\2143297\Documents\Angular_Training\source\watr-fluid-10149.mp3" type="audio/mpeg" />
+    <source src= "1vs0_JuniorGroove.ogg" type="audio/ogg"/>
+    </audio> --> 
+
+   <!-- <input type="text" placeholder="Enter audio" id="audio" name="audio">  --> 
+    <br>
+    
+    <script>
+      function change(){ document.getElementById("p1").innerHTML="data changed";}
+       focus=()=>{console.log('in the function')}
+       
+       function blur(){
+          document.getElementById("b1").style.backgroundColor='yellow';
+       }
+       function blur1(){
+        document.getElementById("mes").style.backgroundColor='blue';
+
+       }
+       
+      
+
+       function chngcolo(){
+        document.getElementById("colo").style.color='red';
+        
+
+       }
+       function mousco(event){
+        var x= event.clientX;
+        var y=event.clientY;
+        var coords = "X coors: "+ x + ", Y coords: "+y;
+        document.getElementById("m1").innerHTML = coords;
+       }
+    </script>
+</body>
+</html>
+

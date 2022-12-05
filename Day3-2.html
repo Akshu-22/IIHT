@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function getfru(){
+        document.getElementById("sel").innerHTML=
+        ("The selected fruit:<b style=+'color:red;> "+fru.fruit[fru.fruit.selectedIndex].text+'</b>')
+       }
+       
+      
+    
+        </script>
+    </head>
+    <body>
+        <h3>Select one of the favourite fruit from the given list to Display</h3>
+    <br>
+    <form name="fru">
+    <select name="fruit"  onchange="getfru()">
+    
+        <option value="Apple">Apple</option>
+        <option value="Mango">Mango</option>
+        <option value="Grape">Grapes</option>
+        <option value="Cherry">Cherry</option>
+      </select>
+    </form>
+    
+      <lable id="sel"></lable>
+<br>
+
+
+
+    </body>
+</html>

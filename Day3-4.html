@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            document.getElementById("d1").innerHTML=val;
+        function onfun(val) {
+        
+        document.getElementById("d1").innerHTML=val;
+        val=!val;
+        }
+        </script>
+        
+    </head>
+    <body>
+        <input type="radio" oninput="onfun(this.value)">
+        <p id="d1"></p>
+
+    </body>
+</html>

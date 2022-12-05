@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="number" oninput="uk()" id="1st" value="0"> +
+        <input type="number" oninput="uk()" id="2nd" value="0"> =
+        <span id="r1">0</span>
+        <script>
+            function uk(){
+                let st = parseInt(document.getElementById("1st").value);
+                let nd = parseInt(document.getElementById("2nd").value);
+                console.log(st + " " +nd);
+                if(isNaN(st)){
+                    st = 0;
+                }
+                if(isNaN(nd)){
+                    nd=0;
+                }
+                document.getElementById("r1").innerHTML = st + nd;
+            }
+
+        </script>
+
+    </body>
+</html>
