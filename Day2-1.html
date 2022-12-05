@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        *{
+        box-sizing: border-box;
+    }
+
+    header{
+        background-color: gray;
+        padding: 2px;
+        text-align: center;
+        font-size: 1em;
+        color:black;
+    }
+
+        section{
+            display:flex;
+        }
+        nav{
+            flex: 1;
+            background-color: yellow;
+            padding: 20px;
+        }
+        nav li
+        {
+        list-style-type: none;
+        padding: 0;
+        }
+        article{
+            flex:3;
+            background-color: green;
+            padding: 5px;
+        }
+        footer {
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media (max-width: 500px) {
+         section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+    </style>
+    
+        <body>
+            <h3>CSS Flex Layout</h3>
+            <p>People learn in many different ways. 
+                Most of people learn new things every single day. 
+                Learning is the ability to do something better.
+                Some people learn a lot by sitting in the classroom and
+                listening to the teacher but for some people learning happens 
+                 outside the classroom.</p>
+
+                 <header>
+
+                    Technologies
+                </header>
+
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href = "java.html">java</a></li>
+                        <li><a href = "c.html">c#</a></li>
+                        <li><a href = "ruby.html">ruby</a></li>
+                        <li><a href = "python.html">python</a></li>
+                    </ul>
+                </nav>
+
+                <article>
+                    <h1>
+                        java
+                    </h1>
+                    <p>Java is a popular programming language, java is amazing 
+                        language ,very robust. It has a large demand in the current 
+                        job market. It is easy to learn and simple to use.It is open-source and free
+                    </p>
+                </article>
+            
+            
+            </section>
+            
+            <footer>
+                <p>Footer</p>
+              </footer>
+            </section>
+        
+    </head>
+</html>
