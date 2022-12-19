@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="loancal.css">
+
+
+
+
+</head>
+
+<body>
+
+    <section>
+
+        <h2>Loan Calculator</h2>
+
+        <form action="" onsubmit="data()">
+
+           <table>
+
+            <tr>
+
+                <td style="font-weight: bold;">Amount of Loan:</td> <td> <input type="number"  id="amount"><br></td>
+            </tr>
+
+            <tr>
+
+                <td style="font-weight: bold;">Annual Interest:</td> <td> <input type="number"  id="rate"><br></td>
+
+            </tr>
+
+            <tr>
+
+                <td style="font-weight: bold;">No of Years:</td> <td> <input type="number"  id="time"><br></td>
+
+            </tr>
+
+            <tr>
+
+                <td><input type="submit" value="Calulate" id="sub"></td>
+
+            </tr>
+
+
+
+
+
+           </table>
+
+           
+
+        </form>
+        <div id="result" >
+        <h2 style="text-align: center;">Results</h2>
+
+        <input type="text" value="Month-Pay"  class=""> <input type="text" id="monthP" >
+
+        <input type="text" value="Total-Interest"  class=""> <input type="text" id="totalI">
+
+        <input type="text" value="Total-Pay"  class=""> <input type="text" id="totalP">
+
+      
+
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+<script src="loancal.js"></script>
+
+</body>
+
+</html>
