@@ -1,0 +1,17 @@
+.d1, .d2 {
+  color: lavender;
+}
+
+.d2 {
+  background-color: aquamarine;
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 400px;
+    margin: 20px;
+  }
+}
+
+/*# sourceMappingURL=extend.css.map */

@@ -1,0 +1,15 @@
+html, body {
+  padding: 0%;
+  margin: 0%;
+  background-color: bisque;
+  color: aliceblue;
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  color: red;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=extrastyle.css.map */

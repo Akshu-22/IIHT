@@ -1,0 +1,8 @@
+
+@each $color,$textweight in (black,20px),(brown,40px),(purple,30px),(green,50px){
+    .c_#{$color}{
+        color:$color;
+        font-size: $textweight;
+    }
+
+}

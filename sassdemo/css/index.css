@@ -1,0 +1,17 @@
+.c1 p {
+  text-align: center;
+  color: purple;
+  font-size: 30px;
+}
+
+.c2 h2 {
+  color: red;
+  font-size: 2rem;
+}
+
+.c2 p {
+  color: palevioletred;
+  border: dashed black;
+}
+
+/*# sourceMappingURL=index.css.map */

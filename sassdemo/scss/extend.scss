@@ -1,0 +1,20 @@
+$color:lavender;
+$fontsize:24px;
+.d1, .d2{
+    color: $color;
+
+}
+.d2{
+    @extend .d1;
+    background-color: aquamarine;
+    font-size: $fontsize;
+
+}
+
+@media (max-width:600px) {
+    .logo{
+        width:400px;
+        margin:20px;
+    }
+    
+}
